@@ -25,8 +25,6 @@
                     Console.WriteLine("Please Enter a Valid Number");
                 }
 
-
-
                 Console.WriteLine("Type another number, and then press Enter");
                 var secondInput = Console.ReadLine();
 
@@ -41,7 +39,6 @@
 
                 if (num1 != null && num2 != null)
                 {
-                    // Ask the user to choose an option.
                     Console.WriteLine("Choose an option from the following list:");
                     Console.WriteLine("\ta - Add");
                     Console.WriteLine("\ts - Subtract");

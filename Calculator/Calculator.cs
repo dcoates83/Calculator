@@ -19,7 +19,7 @@
             return (x / y);
         }
 
-        public static float? PerformOperation(float x, float y, string option)
+        public static float? PerformOperation(float x, float y, string? option)
         {
             if (String.IsNullOrWhiteSpace(option))
             {
